@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --><title>PDS: PDS4 Data Dictionary</title><!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link href="/css/main.css" type="text/css" rel="stylesheet" media="all" />
+<!--<script src="/scripts/jquery-1.2.1.js" type="text/javascript"></script>-->
+<script src="/scripts/email.js" type="text/javascript"></script>
+<script src="/js/popWindow.js" type="text/javascript"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit' async defer></script>
+<link rel="stylesheet" href="/feedback/css/feedback.css"  type="text/css" media="screen" />
+<script src="/feedback/js/modernizr-custom.js"></script>
+<script src="/feedback/js/config.js"></script>
+<script src="/feedback/js/feedback.js"></script>
+
+<script type="text/javascript">
+$(fixEmail);
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-33523145-1"></script>
+<script>
+{{ window.dataLayer = window.dataLayer || [];}}
+{{ function gtag(){dataLayer.push(arguments);}}}
+{{ gtag('js', new Date());}}gtag('config', 'UA-33523145-1');
+</script>
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<!-- InstanceParam name="menu_section" type="text" value="doc" -->
+<!-- InstanceParam name="menu_item" type="text" value="pds4_doc" -->
+<!-- InstanceParam name="left_sidebar" type="boolean" value="true" -->
+<!-- InstanceParam name="standard_sidebar" type="boolean" value="true" -->
+</head>
+
+<body class="sidebar menu_datastandards menu_item_datastandards_doc">
+<!--[if IE]>
+<div id="IE">
+<![endif]--> 
+
+<!-- Header -->
+
+<div id="header">
+
+<div class="nonvisual">
+  <h2>Menu: Skip within this page</h2>
+  <ul>
+    <li><a href="#mainContent">Skip to main content</a></li>
+    <li><a href="#mainMenu">Skip to menu</a></li>
+  </ul>
+</div>
+
+<p id="logo">
+  <a href="/index.shtml" onclick="this.blur()"><img src="/images/nasa-logo.gif" width="60" height="50" border="0" alt="NASA logo" />&nbsp;PDS: The Planetary Data System</a>
+</p>
+
+<h2 class="nonvisual">Menu: Help Links</h2>
+<ul id="nasaLinks">
+  <li><a href="http://www.nasa.gov">NASA Portal</a></li>
+  <li><a href="/site-help.shtml">Site Help</a></li>
+  <li><a href="/contact/contact.shtml">Contact Us</a></li>
+  <li><a href="/contact/feedback.cfm">Feedback</a></li>
+</ul>
+
+<div class="clear"></div>
+
+</div>
+
+
+<!-- Main menu -->
+
+<div id="menu">
+
+<a class="nonvisual" name="mainMenu"></a>
+
+<h2 class="nonvisual">Main menu</h2>
+<ul>
+  <li id="home"><a href="/">Home</a></li>
+  <li id="data"><a href="/datasearch/data-search/">Data Search</a></li>
+  <li id="tools"><a href="/tools/about/">Tools</a></li>
+  <li id="datastandards"><a href="/datastandards/about/">Data Standards</a></li>
+</ul>
+
+<div class="clear"></div>
+</div>
+
+
+<div id="submenu">
+<div id="submenu">
+<div id="submenu_datastandards">
+<h2 class="nonvisual">Menu: Data Standards</h2>
+<ul>
+  <li id="datastandards_about"><a href="/datastandards/about/">Data Standards</a></li>
+  <li id="datastandards_training"><a href="/datastandards/training/">Training</a></li>
+  <li id="datastandards_doc"><a href="/datastandards/documents/">Documents</a></li>
+  <li id="datastandards_schema"><a href="/datastandards/schema/">Schema</a></li>
+  <li id="datastandards_citing"><a href="/datastandards/citing/">Citing PDS4 Data</a></li>
+  <li id="datastandards_pds3"><a href="/datastandards/pds3/">PDS3 Data Standards</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+
+<!-- <ul id="submenu_standards"><li>&nbsp;</li></ul> -->
+<div class="clear"></div>
+</div>
+
+<!-- Sidebar -->
+<div id="sidebar">
+
+<div class="sidebarSection">
+	<h2>PDS Nodes</h2>
+	<ul>
+		<li><a href="https://pds-atmospheres.nmsu.edu/">Atmospheres&nbsp;(ATM)</a></li>
+		<li><a href="http://pds-geosciences.wustl.edu/">Geosciences&nbsp;(GEO)</a></li>
+		<li><a href="https://pds-imaging.jpl.nasa.gov/">Cartography and Imaging Sciences&nbsp;(IMG)</a></li>
+		<li><a href="https://naif.jpl.nasa.gov/">Navigational &amp; Ancillary Information&nbsp;(NAIF)</a></li>
+		<li><a href="https://pds-ppi.igpp.ucla.edu/">Planetary Plasma Interactions&nbsp;(PPI)</a></li>
+		<li><a href="https://pds-rings.seti.org/">Ring-Moon Systems&nbsp;(RMS)</a></li>
+		<li><a href="https://pds-smallbodies.astro.umd.edu/">Small Bodies&nbsp;(SBN)</a></li>
+	</ul>
+</div>
+
+  <!-- InstanceBeginEditable name="leftSidebar" -->
+  <!-- InstanceEndEditable -->
+</div>
+
+<!-- Main content -->
+<div id="content">
+  <h1><a name="mainContent"></a><!-- InstanceBeginEditable name="pageTitle" -->Data Dictionary<!-- InstanceEndEditable --></h1>
+  <div>
+  <!-- InstanceBeginEditable name="content" -->
+    <p>This document is an abridged version of the PDS4 data dictionary. It contains full definitions but not all the fine detail or repetition necessary to support the underlying Information Model. The following versions of the document are available:
+    </p>
+
+    <ul>
+      <li><b>Version 1 (1.13.0.0)</b> - <a href="./v1/PDS4_PDS_DD_1D00.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1D00.pdf">(.pdf)</a>
+        <br>Released in December, 2019, this document corresponds with Build 10a of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.12.0.0)</b> - <a href="./v1/PDS4_PDS_DD_1C00.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1C00.pdf">(.pdf)</a>
+        <br>Released in June, 2019, this document corresponds with Build 9b of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.11.1.0)</b> - <a href="./v1/PDS4_PDS_DD_1B10.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1B10.pdf">(.pdf)</a>
+        <br>Released in May, 2019, this document corresponds with Build 9a+ of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.11.0.0)</b> - <a href="./v1/PDS4_PDS_DD_1B00.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1B00.pdf">(.pdf)</a>
+        <br>Released in October, 2018, this document corresponds with Build 9a of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.10.1.0)</b> - <a href="./v1/PDS4_PDS_DD_1A10.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1A10.pdf">(.pdf)</a>
+        <br>Released in May, 2018, this document corresponds with Build 8b+ of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.10.0.0)</b> - <a href="./v1/PDS4_PDS_DD_1A00.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1A00.pdf">(.pdf)</a>
+        <br>Released in April, 2018, this document corresponds with Build 8b of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.9.0.0)</b> - <a href="./v1/PDS4_PDS_DD_1900.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1900.pdf">(.pdf)</a>
+        <br>Released in September, 2017, this document corresponds with Build 8a of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.8.0.0)</b> - <a href="./v1/PDS4_PDS_DD_1800.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1800.pdf">(.pdf)</a>
+        <br>Released in April, 2017, this document corresponds with Build 7b of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.7.0.0)</b> - <a href="./v1/PDS4_PDS_DD_1700.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1700.pdf">(.pdf)</a>
+        <br>Released in October, 2016, this document corresponds with Build 7a of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.6.0.0)</b> - <a href="./v1/PDS4_PDS_DD_1600.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1600.pdf">(.pdf)</a>
+        <br>Released in April, 2016, this document corresponds with Build 6b of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.5.0.0)</b> - <a href="./v1/PDS4_PDS_DD_1500.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1500.pdf">(.pdf)</a>
+        <br>Released in October, 2015, this document corresponds with Build 6a of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.4.0.0)</b> - <a href="./v1/PDS4_PDS_DD_1400.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1400.pdf">(.pdf)</a>
+        <br>Released in April, 2015, this document corresponds with Build 5b of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.3.0.1)</b> - <a href="./v1/PDS4_PDS_DD_1301.html">(.html)</a> &#124; <a href="./v1/PDS4_PDS_DD_1301.pdf">(.pdf)</a>
+        <br>Released in October, 2014, this document corresponds with Build 5a of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.3.0.0)</b> - <a href="./v1/PDS4IMDocBook_1300.html">(.html)</a> &#124; <a href="./v1/PDS4IMDocBook_1300.pdf">(.pdf)</a>
+        <br>Released in September, 2014, this document corresponds with an Integration &amp; Test release of Build 5a of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.2.0.1)</b> - <a href="./v1/PDS4IMDocBook_1201.html">(.html)</a> &#124; <a href="./v1/PDS4IMDocBook_1201.pdf">(.pdf)</a>
+        <br>Released in April, 2014, this document corresponds with Build 4b of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.2.0.0)</b> - <a href="./v1/PDS4IMDocBook_1200.html">(.html)</a> &#124; <a href="./v1/PDS4IMDocBook_1200.pdf">(.pdf)</a>
+        <br>Released in March, 2014, this document corresponds with an Integration &amp; Test release of Build 4b of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.1.0.1)</b> - <a href="./v1/pds4datadictionary_abridged_1101.pdf">(.pdf)</a>
+        <br>Released in November, 2013, this document corresponds with Build 4a of PDS4. A prototype version of the dictionary, with a new look-and-feel, is also available for review (<a href="./v1/PDS4IMDocBook_1101.html">.html</a> &#124; <a href="./v1/PDS4IMDocBook_1101.pdf">.pdf</a>).
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.1.0.0)</b> - <a href="./v1/pds4datadictionary_abridged_1100.pdf">(.pdf)</a>
+        <br>Released in October, 2013, this document corresponds with an Integration &amp; Test release of Build 4a of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 1 (1.0.0.0)</b> - <a href="./v1/pds4datadictionary_abridged_1000.pdf">(.pdf)</a>
+        <br>Released in May, 2013, this document corresponds with Build 3b of PDS4.
+        </br>
+        <p/>
+      </li>
+      <!-- Comment out the old stuff.
+      <li><b>Version 0.3 (0.3.1.0.b)</b> - <a href="./v03/pds4datadictionary_abridged_0310b.pdf">(.pdf)</a>
+        <br>Released in March, 2013, this document corresponds with Build 3b of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 0.3 (0.3.1.0.a)</b> - <a href="./v03/pds4datadictionary_abridged_0310a.pdf">(.pdf)</a>
+        <br>Released in March, 2013, this document corresponds with an early release of Build 3b of PDS4.
+        </br>
+        <p/>
+      </li>
+      <li><b>Version 0.3 (0.3.0.0.a)</b> - <a href="./v03/pds4datadictionary_abridged_0300a.pdf">(.pdf)</a>
+        <br>Released in September, 2012, this document corresponds with Build 3a of PDS4.
+        </br>
+        <p/>
+      </li>
+      -->
+    </ul>
+  <!-- InstanceEndEditable -->
+  </div>
+</div>
+
+<div id="footer" style="color: black; background: #CCCCCC; vertical-align: middle;">
+  <a href="http://www.nasa.gov"><img class="left" src="/images/usa-gov.gif" alt="Link to www.usa.gov" border="0" /></a>
+
+  <p class="left">
+<a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" style="text-decoration:none;">Privacy / Copyright</a><br />
+<a href="http://www.hq.nasa.gov/office/pao/FOIA/" style="text-decoration:none;">Freedom of Information Act</a>
+  </p>
+  
+  <p class="right">
+Webmaster: <a href="mailto:pds_operator@jpl.nasa.gov" style="text-decoration:none;">PDS Operator</a><br />
+NASA Official: <a href="mailto:meagan.thompson@nasa.gov" style="text-decoration:none;">Meagan Thompson</a><br />
+Last updated: January 2020
+  </p>
+  
+  <img class="right" src="/images/nasa-logo-small.gif" alt="Small NASA logo" />
+  
+  <div style="clear: both;"></div>
+</div>
+
+
+    <!--[if IE]>
+    </div>
+    <![endif]--> 
+  </body>
+<!-- InstanceEnd --></html>
