@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-wget -r --no-host-directories --no-parent -N -i urls.txt
+wget --wait=1 -r --no-host-directories --no-parent -N -i urls.txt
