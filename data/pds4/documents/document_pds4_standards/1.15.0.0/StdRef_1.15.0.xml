@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Document xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:system_bundle:document_pds4_standards:sr_1.15.0</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Planetary Data System Standards Reference (1F00) - October 2, 2020</title>
+        <information_model_version>1.15.0.0</information_model_version>
+        <product_class>Product_Document</product_class>
+        <Citation_Information>
+            <author_list>PDS4 Data Design Working Group</author_list>
+            <publication_year>2020</publication_year>
+            <doi>10.17189/1519385</doi>
+            <description>
+                The PDS4 Standards Reference (SR) is a compilation of policies, rules, and other PDS4 constraints 
+                that are not given explicitly in the IM and DDDB. The combination of the IM, DDDB, and SR gives the 
+                set of common requirements that apply across PDS.
+            </description>
+        </Citation_Information>
+    </Identification_Area>
+    <Document>
+        <publication_date>2020-10-02</publication_date>
+        <Document_Edition>
+            <edition_name>PDF/A-1b</edition_name>
+            <language>English</language>
+            <files>1</files>
+            <description>
+                This file was created by the editor by scanning a paper copy of the presentation deck, 
+                running optical character recognition on the resulting file, adding page numbers in 
+                the upper right corner and a table of contents, and converting the resulting file to 
+                PDF/A-1b format.
+                
+                The publication date above represents the release date for this PDF version.
+            </description>
+            <Document_File>
+                <file_name>StdRef_1.15.0.pdf</file_name>
+                <document_standard_id>PDF/A</document_standard_id>
+            </Document_File>
+        </Document_Edition>
+    </Document>
+</Product_Document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Document xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:system_bundle:document_pds4_standards:mp4_supplemental_document</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Archiving Video (MP4: H.264 and AAC)</title>
+        <information_model_version>1.23.0.0</information_model_version>
+        <product_class>Product_Document</product_class>
+        
+        <Citation_Information>
+            <publication_year>2023</publication_year>
+            <description>
+                Supplemental whitepaper on how to archive video and audio science data under the PDS4 standards, including an introduction to MPEG-4, H.264 video codec, and Advanced Audio Coding (AAC) audio codec, 
+                as well as recommendations and guidelines for converting, testing, and archiving these data.
+            </description>
+            <List_Author>
+                <Organization>
+                    <organization_name>Planetary Data System Management Council</organization_name>
+                </Organization>
+            </List_Author>
+        </Citation_Information>
+		
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2017-05</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial document revision per approval of MP4 as allowable encoded format.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Document>
+        <publication_date>2017-05</publication_date>
+        <Document_Edition>
+            <edition_name>PDFA</edition_name>
+            <language>English</language>
+            <files>1</files>
+            <description>Supplemental whitepaper on how to archive video and audio science data under the PDS4 standards, including an introduction to MPEG-4, H.264 video codec, and Advanced Audio Coding (AAC) audio codec, 
+                as well as recommendations and guidelines for converting, testing, and archiving these data.</description>
+            <Document_File>
+                <file_name>MP4-H264-ACC.pdf</file_name>
+                <document_standard_id>PDF/A</document_standard_id>
+            </Document_File>
+        </Document_Edition>
+    </Document>
+</Product_Document>

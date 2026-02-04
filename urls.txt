@@ -5,3 +5,4 @@ https://pds.nasa.gov/datastandards/documents/dd/
 https://pds.nasa.gov/datastandards/documents/im/
 https://pds.nasa.gov/datastandards/documents/policy/
 https://pds.nasa.gov/datastandards/documents/examples/
+https://pds.nasa.gov/data/pds4/documents/document_pds4_standards/
